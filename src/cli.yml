@@ -1,0 +1,19 @@
+name: grep-lite
+version: "0.1"
+author: Mathias Oertel
+about: Searches for patterns in text
+args:
+  - pattern:
+      help: The pattern to search for
+      takes_value: true
+      required: true
+  - input:
+      help: File to search
+      takes_value: true
+      required: false
+  - line_numbers:
+      help: Output with line numbers
+      short: l
+      long: lines
+      takes_value: false
+      required: false

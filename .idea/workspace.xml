@@ -8,8 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="844fdcd0-0e17-4e20-91bc-165284942f7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/input_parameters.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/processor.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cli.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input_parameters.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/input_parameters.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processor.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/processor.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,18 +100,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599631235788</updated>
-      <workItem from="1599631237186" duration="19842000" />
+      <workItem from="1599631237186" duration="26406000" />
     </task>
+    <task id="LOCAL-00001" summary="first draft">
+      <created>1599740674266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599740674266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="first draft" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1205" y="256" key="#Rust" timestamp="1599631364397">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1205" y="256" key="#Rust/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1599631364397" />
+    <state x="-1400" y="134" key="CommitChangelistDialog2" timestamp="1599740674131">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1400" y="134" key="CommitChangelistDialog2/-1920.0.1920.1080/0.0.1680.1050@-1920.0.1920.1080" timestamp="1599740674131" />
     <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1599670830293">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>

@@ -13,7 +13,6 @@ pub struct Processor {
 }
 
 impl Processor {
-
   pub fn run(&self) {
     match &self.input_params {
       InputParams { regex, input: Some(inp), with_line_numbers } => {
@@ -21,14 +20,13 @@ impl Processor {
         let reader = BufReader::new(file);
         process(reader, regex.clone(), &get_matching_lines, *with_line_numbers)
       }
-      InputParams { regex, input: _, with_line_numbers } => {
+      InputParams { regex, input: None, with_line_numbers } => {
         let stdin = io::stdin();
         let reader = stdin.lock();
         process(reader, regex.clone(), &get_matching_lines, *with_line_numbers)
       }
     };
   }
-
 }
 
 fn process<T: BufRead + Sized>(
