@@ -3,7 +3,7 @@ use std::io;
 use std::io::BufReader;
 use std::io::prelude::*;
 
-use regex::Regex;
+use regex::{Regex, Match};
 
 use crate::input_parameters::InputParams;
 
@@ -40,13 +40,13 @@ fn process<T: BufRead + Sized>(
   }
 }
 
-fn get_matching_lines<T: BufRead + Sized>(reader: T, re: Regex) -> Vec<(usize, String)> {
+fn get_matching_lines<T: BufRead + Sized>(reader: T, regex: Regex) -> Vec<(usize, String)> {
   reader
     .lines()
     .enumerate()
     .map(|(line_number, maybe_line)| {
       let line = maybe_line.unwrap();
-      match re.find(&line) {
+      match regex.find(&line) {
         Some(_) => Some((line_number, line)),
         None => None
       }
